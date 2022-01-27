@@ -903,19 +903,19 @@ headerbar,
       background-color: #2b2b2b; }
 
 .titlebar {
-  border-radius: 3px 3px 0 0; }
+  border-radius: 5px 5px 0 0; }
 
 headerbar entry, headerbar button, headerbar separator {
   margin-top: 6px;
   margin-bottom: 6px; }
 
 separator:first-child + headerbar, separator:first-child + headerbar:backdrop, headerbar:first-child, headerbar:first-child:backdrop {
-  border-top-left-radius: 3px; }
+  border-top-left-radius: 5px; }
   .maximized separator:first-child + headerbar, .tiled separator:first-child + headerbar, .maximized separator:first-child + headerbar:backdrop, .tiled separator:first-child + headerbar:backdrop, .maximized headerbar:first-child, .tiled headerbar:first-child, .maximized headerbar:first-child:backdrop, .tiled headerbar:first-child:backdrop {
     border-radius: 0; }
 
 headerbar:last-child, headerbar:last-child:backdrop {
-  border-top-right-radius: 3px; }
+  border-top-right-radius: 5px; }
   .maximized headerbar:last-child, .tiled headerbar:last-child, .maximized headerbar:last-child:backdrop, .tiled headerbar:last-child:backdrop {
     border-radius: 0; }
 
@@ -2833,7 +2833,7 @@ button.circular-button,
   box-shadow: inset 0 0 0 1px #8f8f8f; }
 
 decoration {
-  border-radius: 3px 3px 0 0;
+  border-radius: 5px 5px 0 0;
   border-width: 0px;
   box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.5), 0 0 0 1px transparent;
   margin: 10px; }
@@ -2846,7 +2846,7 @@ decoration {
     box-shadow: none;
     border-radius: 0; }
   .ssd decoration {
-    border-radius: 3px 3px 0 0;
+    border-radius: 5px 5px 0 0;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.65); }
     .ssd decoration.maximized {
       border-radius: 0; }
@@ -2857,7 +2857,7 @@ decoration {
     border-radius: 2px;
     box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15); }
   message-dialog.csd decoration {
-    border-radius: 3px; }
+    border-radius: 5px; }
   .solid-csd decoration {
     border-radius: 0;
     margin: 1px;
