@@ -4115,9 +4115,6 @@ hdyleaflet:first-child headerbar {
 
 /* Chromium hacks */
 
-/* Fix tabbar border in Edge */
-window.background.chromium headerbar {
-  border: none;
-}
+/* Edge hacks */
 
 
